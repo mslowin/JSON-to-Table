@@ -38,11 +38,11 @@ for (int i = 0; i < text.Length; i++)
             {
                 quotationCounter++; //there are two quotation marks
                 if (quotationCounter == 1)
-                    tmpIndexStart = x + 1; //information ends on this index
+                    tmpIndexStart = x + 1; //information starts on this index
 
                 if (quotationCounter == 2)
                 {
-                    tmpIndexEnd = x; //information starts on this index
+                    tmpIndexEnd = x; //information ends on this index
                     tableContents.Add(text[tmpIndexStart..tmpIndexEnd]);
                     quotationCounter = 0;
                     break;
