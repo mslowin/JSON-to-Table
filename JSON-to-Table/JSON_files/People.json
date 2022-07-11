@@ -1,0 +1,16 @@
+[
+   {
+      "imię":"Kajetan",
+      "nazwisko":"Duszyński",
+      "zawód":"Programista",
+      "wiek":"33",
+      "miejsce-urodzenia":"Lublin"
+   },
+   {
+      "imię":"Jan",
+      "nazwisko":"Kowalski",
+      "zawód":"Marynarz",
+      "wiek":"37",
+      "miejsce-urodzenia":"Sopot"
+   }
+]
